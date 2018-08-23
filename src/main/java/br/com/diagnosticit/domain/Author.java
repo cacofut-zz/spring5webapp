@@ -19,7 +19,7 @@ import javax.persistence.ManyToMany;
  * @author cristianoca
  */
 @Entity
-class Author {
+public class Author {
         
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
